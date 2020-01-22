@@ -88,7 +88,7 @@ func testAccGoogleDirectoryConfigPgp() string {
 resource "turbot_google_directory" "test" {
 	title = "google_directory_test_provider"
 	profile_id_template = "profileemail"
-	client_id = "dummy-dir"
+	client_id = "dummy-provider.apps.google.com"
 	client_secret = "scqXnRczuyve329"
 	parent = "tmod:@turbot/turbot#/"
 	description = "test directory"
@@ -101,7 +101,7 @@ func testAccGoogleDirectoryConfig() string {
 resource "turbot_google_directory" "test" {
 	title = "google_directory_test_provider"
 	profile_id_template = "profileemail"
-	client_id = "dummy-dir"
+	client_id = "dummy-provider.apps.google.com"
 	client_secret = "scqXnRczuyve329"
 	parent = "tmod:@turbot/turbot#/"
 	description = "test directory"
@@ -114,7 +114,7 @@ func testAccGoogleDirectoryUpdateTitleConfig() string {
 resource "turbot_google_directory" "test" {
 	title = "google_directory_test_provider2"
 	profile_id_template = "profileemail"
-	client_id = "dummy-dir"
+	client_id = "dummy-provider.apps.google.com"
 	client_secret = "scqXnRczuyve329"
 	parent = "tmod:@turbot/turbot#/"
 	description = "test directory"
@@ -127,7 +127,7 @@ func testAccGoogleDirectoryUpdateDescConfig() string {
 resource "turbot_google_directory" "test" {
 	title = "google_directory_test_provider"
 	profile_id_template = "profileemail"
-	client_id = "dummy-dir"
+	client_id = "dummy-provider.apps.google.com"
 	client_secret = "scqXnRczuyve329"
 	parent = "tmod:@turbot/turbot#/"
 	description = "test directory for turbot terraform provider"
@@ -140,7 +140,7 @@ func testAccGoogleDirectoryTagsConfig() string {
 resource "turbot_google_directory" "test" {
 	title = "google_directory_test_provider"
 	profile_id_template = "profileemail"
-	client_id = "dummy-dir"
+	client_id = "dummy-provider.apps.google.com"
 	client_secret = "scqXnRczuyve329"
 	parent = "tmod:@turbot/turbot#/"
 	description = "test directory for turbot terraform provider"
